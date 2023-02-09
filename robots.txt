@@ -2,4 +2,4 @@ User-agent: *
 User-agent: GoogleBot
 Disallow: /cdn-cgi/*
 Disallow: /quform/*
-Allow: /
+Disallow: /
