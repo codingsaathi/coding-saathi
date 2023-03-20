@@ -200,12 +200,41 @@
     }
   });
 
+
+
+  // popUp
+const main = document.querySelector('.main');
+const popup = document.querySelector('.popup');
+const close = document.querySelector('.close');
+const click = document.querySelector('.click');
+window.onload = function(){
+  setTimeout(() => {
+    popup.style.display= "block"
+    main.style.filter = "blur(2px)";
+  }, 2000);
+}
+
+close.addEventListener('click',() =>{
+  popup.style.display="none";
+  main.style.filter = "blur(0px)";
+
+})
+
+click.addEventListener('click',() =>{
+  popup.style.display="none";
+  main.style.filter = "blur(0px)";
+})
+
+
+
+
+
   /**
    * Animation on scroll
    */
   window.addEventListener('load', () => {
     AOS.init({
-      duration: 1000,
+      duration: 500,
       easing: 'ease-in-out',
       once: true,
       mirror: false
