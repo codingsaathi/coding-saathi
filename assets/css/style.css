@@ -1582,7 +1582,7 @@ section {
   border-radius: .5rem;
   text-align: center;
   transition: .2s linear;
-  box-shadow: 4px 4px 12px #9c9898;
+  box-shadow: 2px 2px 12px #5e5c5c;
 }
 
 .career .box-container .box img{
@@ -1629,6 +1629,7 @@ section {
 
 .faq .faq-list li+li {
   margin-top: 15px;
+  box-shadow: 2px 2px 12px #5e5c5c;
 }
 
 .faq .faq-list li {
@@ -1636,6 +1637,7 @@ section {
   background: #fff;
   border-radius: 4px;
   position: relative;
+  box-shadow: 2px 2px 12px #5e5c5c;
 }
 
 .faq .faq-list a {
