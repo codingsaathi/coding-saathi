@@ -1,3 +1,4 @@
 User-agent: *
-User-agent: GoogleBot
-Disallow: /
+Allow: /
+
+Sitemap: https://codingsaathi.tech/sitemap.xml

@@ -113,6 +113,9 @@ cursor: pointer;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); }
    .slider-nav-item:nth-child(4) {
     color: #fff;
+    background: #0088cc ; }
+    .slider-nav-item:nth-child(5) {
+    color: #fff;
     background: #7289DA; }
    
    .slider-nav-item:last-child:after {
@@ -443,6 +446,23 @@ cursor: pointer;
   background: -webkit-linear-gradient(45deg, #9c580f 0%,#842a09 25%,#85081b 50%,#89073b 75%,#630645 100%); 
   background: linear-gradient(45deg, #9c580f 0%,#842a09 25%,#85081b 50%,#89073b 75%,#630645 100%); 
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9c580f', endColorstr='#630645',GradientType=1 );
+  color: #fff;
+}
+
+.btn-telegram {
+  background: #0088cc ;
+  color: #fff;
+
+}
+
+.btn-telegram:link,
+.btn-telegram:visited {
+  color: #fff;
+}
+
+.btn-telegram:active,
+.btn-telegram:hover {
+  background: #05161f;
   color: #fff;
 }
 
